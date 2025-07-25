@@ -47,7 +47,7 @@ function Form({ setImc, setClassif }) {
 
                     <div className="flex flex-col items-center text-slate-700">
                         <label className="text-2xl pb-1" htmlFor="idade">Sua idade</label>
-                        <p className="text-sm pb-3 text-slate-700">(sem pontuação)</p>
+                        <p className="text-sm pb-3 text-slate-700">(números)</p>
                         <input className="p-1 font-bold text-sky-700 text-center border border-sky-700 rounded-lg focus:outline-sky-700 focus:text-sky-700" type="number" id="idade" required min={1} max={99} />
                     </div>
 
