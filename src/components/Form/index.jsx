@@ -64,6 +64,7 @@ function Form({ setImc, setClassif }) {
                     </div>
 
                     <button className="p-2 pr-4 pl-4 bg-sky-700 rounded-lg text-sky-50 font-bold uppercase cursor-pointer hover:bg-slate-700" type="submit">Calcular</button>
+                    <p className="text-sm pb-3 text-slate-700">Após clicar, role para baixo para ver o resultado.</p>
                 </form>
             </div>
         </>
